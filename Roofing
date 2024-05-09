@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EliteRoofers & Co - Your Trusted Home Improvement Experts</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to EliteRoofers & Co</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About Us</h2>
+            <p>At EliteRoofers & Co, we are your trusted home improvement experts...</p>
+        </section>
+        <section id="services">
+            <h2>Our Services</h2>
+            <ul>
+                <li>Roof Installation</li>
+                <li>Roof Repairs</li>
+                <li>Roof Inspections</li>
+                <li>Roof Maintenance</li>
+                <li>Drywall Installation & Repair</li>
+                <li>Painting Services</li>
+                <li>Gutter Installation & Repair</li>
+                <li>Skylight Installation & Repair</li>
+            </ul>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <!-- Add image thumbnails with links to full-size images -->
+            <div class="gallery-image">
+                <img src="before-roof-repair.jpg" alt="Before Roof Repair">
+                <p>Before</p>
+            </div>
+            <div class="gallery-image">
+                <img src="after-roof-repair.jpg" alt="After Roof Repair">
+                <p>After</p>
+            </div>
+            <!-- Add more images as needed -->
+        </section>
+        <section id="testimonials">
+            <h2>Testimonials</h2>
+            <div class="testimonial">
+                <p>"EliteRoofers & Co did an amazing job repairing my roof. The team was professional, efficient, and the results exceeded my expectations!"</p>
+                <p>- John D.</p>
+            </div>
+            <div class="testimonial">
+                <p>"I highly recommend EliteRoofers & Co for any home improvement project. They provided excellent service from start to finish."</p>
+                <p>- Sarah M.</p>
+            </div>
+            <!-- Add more testimonials as needed -->
+        </section>
+        <section id="contact">
+            <h2>Contact Us</h2>
+            <p>Ready to get started? Contact us today to schedule a consultation...</p>
+            <p>Phone: 415-278-3989</p>
+            <form action="contact.php" method="post">
+                <input type="text" name="name" placeholder="Your Name" required>
+                <input type="email" name="email" placeholder="Your Email" required>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 EliteRoofers & Co. All rights reserved.</p>
+    </footer>
+</body>
+</html>
